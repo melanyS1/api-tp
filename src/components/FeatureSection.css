@@ -1,0 +1,25 @@
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #84fc39ca; 
+  min-height: 400px; 
+  padding: 20px;
+  width: 100%;
+}
+
+.feature-content {
+  text-align: center;
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.phones img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; 
+}

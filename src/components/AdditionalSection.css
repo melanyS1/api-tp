@@ -1,0 +1,23 @@
+.additional-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 400px; 
+  }
+  
+  .additional-section h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .additional-section p {
+    font-size: 16px;
+    color: #666;
+  }
+  
