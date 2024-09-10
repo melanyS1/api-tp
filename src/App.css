@@ -2,33 +2,3 @@
   display: flex;
   flex-direction: column;
 }
-
-.main-section, .feature-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 400px; 
-  width: 100%;
-}
-
-.feature-section {
-  background-color: #B9FF66; 
-}
-
-.main-section {
-  background-color: #ffffff; 
-  text-align: center;
-}
-
-.cta-button {
-  padding: 10px 20px;
-  background-color: #000000; 
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.cta-button:hover {
-  background-color: #62ce1fca;
-}

@@ -1,0 +1,36 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+  background-color: #B9FF66;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #62ce1fca;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./AdditionalSection.css"; 
-import imagenAdicional from "../images/imagen-adicional.png"; 
+import imagenAdicional from '../../images/imagen-adicional.png'; // Ajusta la ruta
 
 export default function AdditionalSection() {
   return (

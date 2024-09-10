@@ -1,19 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
-import MainSection from "./components/MainSection";
-import FeatureSection from "./components/FeatureSection";
-import AdditionalSection from "./components/AdditionalSection";
-import Footer from "./components/Footer"; 
-import "./App.css";
+import LandingPage from "./pages/Landing/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MainSection />
-      <FeatureSection />
-      <AdditionalSection />
-      <Footer /> 
+      <LandingPage />
     </div>
   );
 }
