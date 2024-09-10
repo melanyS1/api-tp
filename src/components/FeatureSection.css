@@ -2,14 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #84fc39ca; 
+  background-color: #B9FF66; 
   min-height: 400px; 
   padding: 20px;
   width: 100%;
 }
 
 .feature-content {
-  text-align: center;
+  text-align: right;
+  flex: 1; 
+  padding-right: 120px; 
+}
+
+.feature-content h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: right;
+
 }
 
 .phones {
