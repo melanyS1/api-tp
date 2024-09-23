@@ -1,5 +1,5 @@
 import React from "react";
-import imagenAdicional from '../../images/imagen-adicional.png'; 
+import imagenAdicional from './../../assets/images/imagen-adicional.png'; 
 
 export default function AdditionalSection() {
   return (

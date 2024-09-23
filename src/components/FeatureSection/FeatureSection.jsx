@@ -1,6 +1,6 @@
 import React from "react";
-import mobile from '../../images/phone-1.png'; 
-import mobileTwo from '../../images/phone-1.png'; 
+import mobile from './../../assets/images/phone-1.png'; 
+import mobileTwo from './../../assets/images/phone-1.png'; 
 
 export default function FeatureSection() {
   return (

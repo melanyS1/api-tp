@@ -14,7 +14,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mx-auto">
       <Header onRegisterClick={handleRegisterClick} />
       <MainSection />
       <FeatureSection />

@@ -1,10 +1,9 @@
 import React from "react";
-import mainImage from '../../images/main-imagen.png';
-
+import mainImage from './../../assets/images/Illustration.svg'
 export default function MainSection() {
   return (
-    <section className="flex justify-start items-center h-screen bg-white p-5 relative">
-      <div className="main-content max-w-lg ml-10 md:ml-20 mr-auto">
+    <section className="flex flex-col md:flex-row justify-between items-center h-screen bg-white p-5">
+      <div className="main-content max-w-lg ml-0 md:ml-10 mr-0 md:mr-auto text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
           Compartí gastos sin preocupaciones
         </h1>
@@ -15,8 +14,13 @@ export default function MainSection() {
           Comencemos
         </button>
       </div>
-      <div className="image-container">
-        <img src={mainImage} alt="Example" className="w-[500px] h-auto mt-[130px] mr-[180px]" /> 
+
+      <div className="image-container mt-8 md:mt-0 flex-shrink-0">
+        <img
+          src={mainImage}
+          alt="Example"
+          className="w-[300px] md:w-[500px] h-auto"
+        />
       </div>
     </section>
   );
